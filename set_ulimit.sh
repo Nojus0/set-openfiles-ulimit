@@ -4,7 +4,7 @@
 LIMIT=$1
 
 if [ -z "$LIMIT" ] ; then
-    echo "Please provide the new open files ulimit. 'sudo ./ulimit 100000'"
+    echo "Please provide the new open files ulimit. 'sudo ./set_ulimit.sh 100000'"
     exit 1
 fi
 
